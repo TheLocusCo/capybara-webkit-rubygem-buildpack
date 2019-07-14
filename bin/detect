@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+
+echo "Autodetect true: Always installing QT/Webkit" && exit 0
