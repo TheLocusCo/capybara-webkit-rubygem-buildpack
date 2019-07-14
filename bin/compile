@@ -7,5 +7,4 @@ set -e
 echo "-----> Compile Step, exporting QMAKE, QT_SELECT, test install"
 export QMAKE=/usr/bin/qmake
 export QT_SELECT=qt5
-gem install capybara-webkit -- --with-opt-include=/usr/bin/qmake
 echo "-----> QMAKE=$QMAKE"
