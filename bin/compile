@@ -4,4 +4,6 @@
 # fail fast
 set -e
 
-echo "-----> Compile Step NOOP"
+echo "-----> Compile Step, exporting QMAKE"
+export QMAKE=/usr/bin/qmake-qt5
+echo "-----> QMAKE=$QMAKE"
